@@ -19,7 +19,7 @@ const ContactLeft = () => {
                     
                 </p>
                 <p className="text-base text-gray-400 flex items-center gap-2">
-                    Phone: <span className="text-lightText">+216 778808</span>
+                    Phone: <span className="text-lightText">+216 50778808</span>
                 </p>
                 <p className="text-base text-gray-400 flex items-center gap-2">
                     Email1: <span className="text-lightText">ezzar30@gmail.com</span>
