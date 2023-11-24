@@ -30,7 +30,7 @@ const Media = () => {
         <h2 className="text-base uppercase font-titleFont mb-4">My Cv</h2>
         <div className="flex gap-4">
           <span className="bannerIcon">
-            <a href="/cv" download="cv-Abdelkarim-EZZAR.pdf">
+            <a href="./cv" download="cv-Abdelkarim-EZZAR.pdf">
               <FaDownload />
             </a>
           </span>
