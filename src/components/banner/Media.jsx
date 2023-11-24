@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaFacebookF, FaLinkedinIn, FaReact, FaGithub, FaDownload } from "react-icons/fa";
 import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
+import CVFile from '../../assets/cv/cv-Abdelkarim-EZZAR.pdf';
 const Media = () => {
   return (
     <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
@@ -29,8 +30,8 @@ const Media = () => {
       <div>
         <h2 className="text-base uppercase font-titleFont mb-4">My Cv</h2>
         <div className="flex gap-4">
-          <span className="bannerIcon">
-            <a href="../../assets/cv/cv-Abdelkarim-EZZAR.pdf" download="./cv-Abdelkarim-EZZAR.pdf">
+        <span className="bannerIcon">
+            <a href={CVFile} download="cv-Abdelkarim-EZZAR.pdf">
               <FaDownload />
             </a>
           </span>
