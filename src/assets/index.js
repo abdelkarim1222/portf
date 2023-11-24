@@ -8,6 +8,7 @@ import testimonialOne from "./images/testmonial/testimonialOne.png";
 import testimonialTwo from "./images/testmonial/testimonialTwo.png";
 import quote from "./images/testmonial/quote.png"
 import contactImg from "./images/contact/contactImg.png"
+import cv from "./cv/cv-Abdelkarim-EZZAR.pdf"
 
 export {
   bannerImg,
@@ -18,5 +19,6 @@ export {
   testimonialTwo,
   quote,
   contactImg,
-  hh
+  hh,
+  cv
 };
