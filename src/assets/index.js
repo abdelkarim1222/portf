@@ -1,6 +1,7 @@
 
 import hh from "./images/dd.png";
-import bannerImg from "./images/hero.png";
+import bannerImg from "./images/logo1.png";
+import bannerImg1 from "./images/hero.png";
 import projectOne from "./images/projects/projectOne.jpg";
 import projectTwo from "./images/projects/projectTwo.jpg";
 import projectThree from "./images/projects/projectThree.jpeg";
@@ -12,6 +13,7 @@ import cv from "./cv/cv-Abdelkarim-EZZAR.pdf"
 
 export {
   bannerImg,
+  bannerImg1,
   projectOne,
   projectTwo,
   projectThree,
