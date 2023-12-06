@@ -7,9 +7,10 @@ import projectTwo from "./images/projects/projectTwo.jpg";
 import projectThree from "./images/projects/projectThree.jpeg";
 import testimonialOne from "./images/testmonial/testimonialOne.png";
 import testimonialTwo from "./images/testmonial/testimonialTwo.png";
-import quote from "./images/testmonial/quote.png"
-import contactImg from "./images/contact/contactImg.png"
-import cv from "./cv/cv-Abdelkarim-EZZAR.pdf"
+import quote from "./images/testmonial/quote.png";
+import contactImg from "./images/contact/contactImg.png";
+import cv from "./cv/cv-Abdelkarim-EZZAR.pdf";
+import logo from "./images/logo.png";
 
 export {
   bannerImg,
@@ -22,5 +23,6 @@ export {
   quote,
   contactImg,
   hh,
-  cv
+  cv,
+  logo
 };
