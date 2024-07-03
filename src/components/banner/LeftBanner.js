@@ -4,7 +4,7 @@ import Media from './Media';
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
-        words: ["Full Stack Developer.", "UI Designer."],
+        words: ["Software engineer.","Full Stack Developer.", "UI Designer."],
         loop: true,
         deleteSpeed: 10,
         delaySpeed: 2000,
@@ -25,11 +25,9 @@ const LeftBanner = () => {
                     />
                 </h2>
                 <p className="text-base font-bodyFont leading-6 tracking-wide">
-                    engineering student at the Polytechnic School of Sousse,
-                    IT specialty Engineer with a specialty in Artificial Intelligence and Big Data,
-                    I am looking for an internship. With a strong academic background and passionate about innovation,
-                    I aim to contribute to avant-garde projects and projects, exploit the
-                    emerging technologies to solve real-world challenges.
+                Newly graduated software engineer, 
+                passionate about emerging technologies and determined to apply my skills to take on innovative challenges 
+                while seeking to improve my skills.
                 </p>
             </div>
             {/* Media */}
