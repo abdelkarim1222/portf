@@ -7,26 +7,26 @@ const Footer = () => {
             <div className="w-full h-full flex flex-col gap-8">
                 
                 <div className="flex justify-center gap-9">
-    <span className="bannerIcon">
-        <a href="https://www.facebook.com/ezzar.abdlekrim.5" target="_blank" rel="noopener noreferrer">
-            <FaFacebookF />
-        </a>
-    </span>
-    <span className="bannerIcon">
-        <a href="https://github.com/abdelkarim1222" target="_blank" rel="noopener noreferrer">
-            <FaGithub />
-        </a>
-    </span>
-    <span className="bannerIcon">
-        <a href="https://www.linkedin.com/in/ezzar-abdlekrim/" target="_blank" rel="noopener noreferrer">
-            <FaLinkedinIn />
-        </a>
-    </span>
-</div>
+                    <span className="bannerIcon">
+                        <a href="https://www.facebook.com/ezzar.abdlekrim.5" target="_blank" rel="noopener noreferrer">
+                            <FaFacebookF />
+                        </a>
+                    </span>
+                    <span className="bannerIcon">
+                        <a href="https://github.com/abdelkarim1222" target="_blank" rel="noopener noreferrer">
+                            <FaGithub />
+                        </a>
+                    </span>
+                    <span className="bannerIcon">
+                        <a href="https://www.linkedin.com/in/ezzar-abdlekrim/" target="_blank" rel="noopener noreferrer">
+                            <FaLinkedinIn />
+                        </a>
+                    </span>
+                </div>
             </div>
             <div className="w-full h-full">
                 <h3 className="text-xl uppercase text-designColor tracking-wider">
-                    Quick Link
+                    Quick Links
                 </h3>
                 <ul className="flex flex-col gap-4 font-titleFont font-medium py-6 overflow-hidden">
                     <li>
@@ -139,4 +139,4 @@ const Footer = () => {
     );
 }
 
-export default Footer
+export default Footer;
