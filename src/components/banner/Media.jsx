@@ -1,15 +1,15 @@
-import React from 'react'
+import React from 'react';
 import { FaFacebookF, FaLinkedinIn, FaReact, FaGithub, FaDownload, FaFileDownload } from "react-icons/fa";
 import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
 import CVFile from '../../assets/cv/cv-Abdelkarim-EZZAR.pdf';
 import CVFile1 from '../../assets/cv/cv-canadien.pdf';
+
 const Media = () => {
   return (
     <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
-      <div>
-        <h2 className="text-base uppercase font-titleFont mb-4">
-          Find me in
-        </h2>
+      {/* Find Me In Section */}
+      <div className="flex flex-col items-start">
+        <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
         <div className="flex gap-4">
           <span className="bannerIcon">
             <a href="https://www.facebook.com/ezzar.abdlekrim.5" target="_blank" rel="noopener noreferrer">
@@ -28,47 +28,34 @@ const Media = () => {
           </span>
         </div>
       </div>
-      <div>
-        <h2 className="text-base uppercase font-titleFont mb-4">My Cv</h2>
+
+      {/* My CV Section 1 */}
+      <div className="flex flex-col items-start">
+        <h2 className="text-base uppercase font-titleFont mb-4">My CV</h2>
         <div className="flex gap-4">
-        <span className="bannerIcon">
+          <span className="bannerIcon">
             <a href={CVFile} download="cv-Abdelkarim-EZZAR.pdf">
               <FaDownload />
             </a>
           </span>
         </div>
       </div>
-      <div>
-        <h2 className="text-base uppercase font-titleFont mb-4">My Cv</h2>
+
+      {/* My CV Section 2 */}
+      <div className="flex flex-col items-start">
+        <h2 className="text-base uppercase font-titleFont mb-4">My CV</h2>
         <div className="flex gap-4">
-        <span className="bannerIcon">
+          <span className="bannerIcon">
             <a href={CVFile1} download="cv-canadien.pdf">
               <FaFileDownload />
             </a>
           </span>
         </div>
       </div>
-      <div>
-        <h2 className="text-base uppercase font-titleFont mb-4">
-          BEST SKILL ON
-        </h2>
-        <div className="flex gap-4">
-          <span className="bannerIcon">
-            <FaReact />
-          </span>
-          <span className="bannerIcon">
-            <SiNextdotjs />
-          </span>
-          <span className="bannerIcon">
-            <SiTailwindcss />
-          </span>
-          <span className="bannerIcon">
-            <SiFigma />
-          </span>
-        </div>
-      </div>
+
+      
     </div>
-  )
+  );
 }
 
-export default Media
+export default Media;

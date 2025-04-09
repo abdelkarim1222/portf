@@ -4,7 +4,7 @@ import Media from './Media';
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
-        words: ["Software engineer.","Full Stack Developer.", "UI Designer."],
+        words: ["Software engineer","Full Stack Developer", "UI Designer"],
         loop: true,
         deleteSpeed: 10,
         delaySpeed: 2000,
@@ -25,12 +25,14 @@ const LeftBanner = () => {
                     />
                 </h2>
                 <p className="text-base font-bodyFont leading-6 tracking-wide">
-                Newly graduated software engineer, 
-                passionate about emerging technologies and determined to apply my skills to take on innovative challenges 
-                while seeking to improve my skills.
+                A passionate and motivated Software Engineer, recently graduated from École Polytechnique Sousse, Tunisia, with a strong foundation in full-stack development, data analysis, 
+                and system design. I am skilled in modern technologies such as React.js, Node.js, Spring Boot, and Power BI.
+                My academic and internship experiences include building web applications for stock, flock, and business management. 
+                With a proactive mindset, I thrive in collaborative environments and continuously seek to expand my knowledge in emerging technologies. 
+                Eager to contribute to innovative projects and deliver impactful digital solutions, I am ready to bring energy, adaptability, and a problem-solving approach to any challenge.
                 </p>
             </div>
-            {/* Media */}
+            
             <Media />
         </div>
     );

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { motion } from 'framer-motion';
 import ResumeCard from './ResumeCard';
 
@@ -9,63 +9,63 @@ const Education = () => {
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
       className="w-full flex flex-col lgl:flex-row gap-10 lgl:gap-20"
     >
-      {/* part one */}
+      {/* Education Section */}
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2014 - Now</p>
-          <h2 className="text-3xl md:text-4xl font-bold">Education Quality</h2>
+          <p className="text-sm text-designColor tracking-[4px]">2014 - 2024</p>
+          <h2 className="text-3xl md:text-4xl font-bold">Education</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title=" software engineer"
-            subTitle="Polytechnic Sousse  (2021 - Now)"
-            result="3.90/4"
-            des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
+            title="Computer Engineering Degree"
+            subTitle="École Polytechnique Sousse (2021 - 2024)"
+            result="Very Good"
+            des="Specialization in Software Engineering with modules including Algorithms in C, Object-Oriented Programming (Java/C++), and Network Design (CCNA)."
           />
           <ResumeCard
-            title="Integrated preparatory cycle"
-            subTitle="Polytechnic Sousse (2019 - 2021)"
-            result="4.75/5"
-            des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
+            title="Integrated Preparatory Cycle"
+            subTitle="École Polytechnique Sousse (2019 - 2021)"
+            result="Excellent"
+            des="Completed foundational studies in advanced mathematics, physics, and computer science to access the engineering cycle."
           />
           <ResumeCard
-            title="Bachelor of Technical Sciences"
-            subTitle="Bekalta Secondary School (2014 - 2018)"
-            result="5.00/5"
-            des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
+            title="Baccalaureate in Technical Sciences"
+            subTitle="Bekalta Secondary School (2014 - 2019)"
+            result="Excellent"
+            des="Scientific and technical high school diploma with focus on engineering principles, mechanics, and computing basics."
           />
         </div>
       </div>
-      
+
+      {/* Experience Section */}
       <div>
         <div className="py-6 lgl:py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2022 - 2023</p>
-          <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
+          <p className="text-sm text-designColor tracking-[4px]">2022 - 2024</p>
+          <h2 className="text-3xl md:text-4xl font-bold">Professional Experience</h2>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
-         
           <ResumeCard
-            title="The intern may Com & DEV"
-            subTitle="Com & DEV - ( 2023)"
-            result="tunis"
-            des="Development of a management website:
-            A management website project involves the creation and
-            development of an online platform aimed at organizing,
-            supervise and manage various activities or data."
+            title="End-of-Studies Internship"
+            subTitle="ALBARAKA – Poultry Company (Feb 2024 - Jun 2024)"
+            result="Sousse"
+            des="Designed and developed a complete web platform for poultry farm management: tracking growth, monitoring stock, and optimizing resources."
           />
           <ResumeCard
-            title="The intern may Designed & Dusted"
-            subTitle="Designed & Dusted - (2022)"
-            result="tunis"
-            des="The development of a medicine purchasing application
-            involves the creation of a mobile or web platform allowing
-            users to purchase medicines securely and
-            practical."
+            title="Engineering Internship"
+            subTitle="Com & DEV (Jul 2023 - Sep 2023)"
+            result="Tunis"
+            des="Created and deployed a web-based management solution using React.js and Ruby on Rails, enhancing business operations."
+          />
+          <ResumeCard
+            title="Initiation Internship"
+            subTitle="Designed & Dusted (Jul 2022 - Sep 2022)"
+            result="Tunis"
+            des="Built a medication purchase web application using React.js, Express.js, and MySQL, focused on usability and secure transactions."
           />
         </div>
       </div>
     </motion.div>
   );
-}
+};
 
-export default Education
+export default Education;
