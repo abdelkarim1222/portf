@@ -17,12 +17,13 @@ const Skills = () => {
           <h2 className="text-3xl md:text-4xl font-bold">Development Skills</h2>
         </div>
         <div className="mt-14 w-full flex flex-col gap-6">
-          <SkillBar name="Node.js & Express.js" level="80%" />
+          <SkillBar name="Node.js & Express.js" level="85%" />
+          <SkillBar name="Ruby on Rails" level="75%" />
           <SkillBar name="Spring Boot" level="60%" />
-          <SkillBar name="J2EE" level="50%" />
-          <SkillBar name="Symfony" level="60%" />
+          <SkillBar name="PHP / Laravel" level="60%" />
           <SkillBar name="Python" level="70%" />
-          <SkillBar name="Java" level="70%" />
+          <SkillBar name="Java / C / C++" level="70%" />
+          <SkillBar name="SQL (MySQL, Oracle, NoSQL)" level="80%" />
         </div>
       </div>
 
@@ -35,12 +36,13 @@ const Skills = () => {
           <h2 className="text-3xl md:text-4xl font-bold">UI & Technologies</h2>
         </div>
         <div className="flex flex-col gap-6">
-          <SkillBar name="React.js" level="90%" />
-          <SkillBar name="Flutter" level="50%" />
-          <SkillBar name="HTML5 & CSS3" level="95%" />
-          <SkillBar name="JavaScript / TypeScript" level="75%" />
-          <SkillBar name="Android Studio" level="40%" />
-          <SkillBar name="Figma (UI Prototyping)" level="70%" />
+          <SkillBar name="React.js / Material UI" level="90%" />
+          <SkillBar name="Vue.js / Angular" level="60%" />
+          <SkillBar name="HTML5 / CSS3" level="95%" />
+          <SkillBar name="JavaScript / TypeScript" level="80%" />
+          <SkillBar name="Figma / UI Prototyping" level="75%" />
+          <SkillBar name="Git / GitHub / Postman" level="85%" />
+          <SkillBar name="Android Studio / VS Code" level="70%" />
         </div>
       </div>
     </motion.div>

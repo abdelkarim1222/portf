@@ -12,27 +12,27 @@ const Achievement = () => {
       {/* Column 1 - Events & Organization */}
       <div>
         <div className="py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2021 - 2023</p>
-          <h2 className="text-4xl font-bold">Event Participation</h2>
+          <p className="text-sm text-designColor tracking-[4px]">2021 - 2024</p>
+          <h2 className="text-4xl font-bold">Participation aux Événements</h2>
         </div>
-        <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-14 w-full h-auto border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Open Day (JPO)"
+            title="Journée Portes Ouvertes (JPO)"
             subTitle="École Polytechnique Sousse"
             result="Sousse"
-            des="Active participation in organizing the university’s Open Day and IT Night event, showcasing academic and student projects."
+            des="Participation active à l'organisation de la Journée Portes Ouvertes et de l'événement Nuit de l'Informatique, mettant en avant les projets académiques et étudiants."
           />
           <ResumeCard
-            title="OpenIA - 2nd Edition"
+            title="OpenIA - 2ème Édition"
             subTitle="École Polytechnique Sousse"
             result="Sousse"
-            des="Attended and contributed to the OpenIA event focused on artificial intelligence trends and innovations."
+            des="Participation à l'événement OpenIA centré sur les tendances et les innovations en intelligence artificielle."
           />
           <ResumeCard
-            title="Night of Computing"
+            title="Nuit de l'Informatique"
             subTitle="École Polytechnique Sousse"
             result="Sousse"
-            des="Helped organize this major tech event aimed at promoting student projects and digital creativity."
+            des="Aide à l'organisation de cet événement majeur en technologie, visant à promouvoir les projets étudiants et la créativité numérique."
           />
         </div>
       </div>
@@ -40,27 +40,27 @@ const Achievement = () => {
       {/* Column 2 - Clubs & Social Projects */}
       <div>
         <div className="py-12 font-titleFont flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2021 - 2023</p>
-          <h2 className="text-4xl font-bold">Club & Social Involvement</h2>
+          <p className="text-sm text-designColor tracking-[4px]">2021 - 2024</p>
+          <h2 className="text-4xl font-bold">Engagements Sociaux & Clubs</h2>
         </div>
-        <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-14 w-full h-auto border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Reyada Event"
+            title="Événement Reyada"
             subTitle="École Polytechnique Sousse"
             result="Sousse"
-            des="Participated in this entrepreneurial and innovation-focused event encouraging leadership and project pitching."
+            des="Participation à l'événement Reyada, centré sur l'entrepreneuriat et l'innovation, favorisant le leadership et la présentation de projets."
           />
           <ResumeCard
             title="Microsoft Club"
             subTitle="Polytechnique Sousse"
             result="Sousse"
-            des="Member of the Microsoft Club, contributing to technology workshops and student tech meetups."
+            des="Membre du Microsoft Club, contribuant à l'organisation d'ateliers technologiques et de rencontres pour les étudiants passionnés de technologie."
           />
           <ResumeCard
-            title="PSC - Social Cultural Project"
+            title="PSC - Projet Socio-Culturel"
             subTitle="École Polytechnique Sousse"
             result="Sousse"
-            des="Contributed to the creation of a social and cultural initiative promoting student engagement and community outreach."
+            des="Contribution à la création d'un projet social et culturel visant à promouvoir l'engagement étudiant et les initiatives communautaires."
           />
         </div>
       </div>
