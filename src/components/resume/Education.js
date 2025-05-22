@@ -47,7 +47,7 @@ const Education = () => {
           
           <ResumeCard
             title="Full-Stack Developer"
-            subTitle="Freelance Project – Rental Management App (Sep 2024 – Jan 2025)"
+            subTitle="Freelance Project – Rental Management App (Jan 2025 – Apr 2025)"
             result="Remote"
             des="Developed a platform for managing room and seasonal accommodation rentals:
             • Implemented online booking with availability tracking and request validation.
@@ -60,7 +60,7 @@ const Education = () => {
 
           <ResumeCard
             title="Full-Stack Developer"
-            subTitle="Freelance Project – E-Commerce Platform (Jan 2025 – Apr 2025)"
+            subTitle="Freelance Project – E-Commerce Platform (Sep 2024 – Jan 2025)"
             result="Remote"
             des="Built a complete online selling solution for merchants:
             • Authentication with role-based access (customer, merchant, admin).
